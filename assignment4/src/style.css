@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 20;
+    padding: 10;
+}
+
+h1 {
+    color: #000000;
+}
+
+#colorInput {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#changeColorButton {
+    background-color: #002F5F;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: progres;
+    transition: background-color 0.2s ease-out;
+}
+
+#changeColorButton:hover {
+    background-color: #4E5F72;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+}
