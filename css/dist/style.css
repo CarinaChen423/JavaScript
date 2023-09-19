@@ -1,0 +1,18 @@
+body {
+  background-color: grey;
+  color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+.customizer-section {
+  margin-bottom: 20px;
+}
+
+#my_style {
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+.myTitle {
+  color: blue;
+}
